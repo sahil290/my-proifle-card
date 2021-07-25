@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-container{
+    position: relative;
+    display: flex;
+    margin: 15% 25% 0% 33%;
+    height: 180px;
+    width: 450px;
+    background: linear-gradient(40deg, #f00d06,#077a8f);
+    border: 1px solid black;
+    color: #fff;
+    box-shadow:  20px 20px 60px #04daf7,
+    -10px -20px 40px #fd0404;;
+}
+img{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    filter: brightness(150%);
+    margin-left: 10px;
+    margin-top: 25px;
+}
+h2.name{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+label.email{
+    position: absolute;
+  margin-top: 55px;
+  margin-left: 160px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+label.number{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 160px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+label.info{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 160px;
+    font-weight: 600;
+}
+a.social-media{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 140px;
+    margin-left: 160px;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 25px;
+    color: #fff;
+}
+/* Hover section */
+h2:hover{
+color: chartreuse;
+transform: scale(1.1);
+}
+label:hover{
+    color: chartreuse;
+    filter: brightness(150%);
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
+a:hover{
+    color: deepskyblue;
+    filter: brightness(150%);
+    transform: scale(1.1);
+}
