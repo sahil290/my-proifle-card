@@ -1,82 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#main-container{
-    position: relative;
-    display: flex;
-    margin: 15% 25% 0% 33%;
-    height: 180px;
-    width: 450px;
-    background: linear-gradient(40deg, #f00d06,#077a8f);
-    border: 1px solid black;
-    color: #fff;
-    box-shadow:  20px 20px 60px #04daf7,
-    -10px -20px 40px #fd0404;;
+body {
+  background-color: rgb(254, 255, 255);
 }
-img{
-    position: absolute;
-    height: 130px;
-    width: 130px;
-    border-radius: 100%;
-    filter: brightness(150%);
-    margin-left: 10px;
-    margin-top: 25px;
+#main-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+  width: 15em;
+  background: linear-gradient(80deg, rgb(10, 10, 10), #035a66);
+  margin-top: 5%;
+  margin-left: 40%;
+  border-radius: 3%;
+  border: 1px solid rgb(7, 7, 7);
+  box-shadow: 10px 10px 30px #0e0d0d, -10px -10px 30px #10a6c0;
 }
-h2.name{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 160px;
-    font-size: 20px;
-    text-decoration: underline;
-    letter-spacing: 1px;
+h1 {
+  position: absolute;
+  top: 20px;
+  color: rgb(105, 155, 247);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  filter: brightness(150%);
 }
-label.email{
-    position: absolute;
-  margin-top: 55px;
-  margin-left: 160px;
-  font-weight: 600;
-  letter-spacing: 1px;
+h1:hover {
+  color: rgb(232, 236, 243);
+  font-size: 22px;
+  text-decoration: underline #070707;
 }
-label.number{
-    position: absolute;
-    margin-top: 85px;
-    margin-left: 160px;
-    font-weight: 600;
-    letter-spacing: 1px;
+img {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  top: 70px;
 }
-label.info{
-    position: absolute;
-    margin-top: 115px;
-    margin-left: 160px;
-    font-weight: 600;
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px #0e0d0d, -5px -5px 15px #f10cb8;
 }
-a.social-media{
-    position: absolute;
-    text-decoration: none;
-    margin-top: 140px;
-    margin-left: 160px;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 25px;
-    color: #fff;
+h2 {
+  position: absolute;
+  font-size: 18px;
+  color: rgb(105, 155, 247);
+  filter: brightness(150%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Hover section */
-h2:hover{
-color: chartreuse;
-transform: scale(1.1);
+h2.name {
+  top: 250px;
 }
-label:hover{
-    color: chartreuse;
-    filter: brightness(150%);
-    transform: scale(1.1);
+h2.email {
+  top: 300px;
 }
-img:hover{
-    transform: scale(1.1);
+h2.info {
+  top: 350px;
 }
-a:hover{
-    color: deepskyblue;
-    filter: brightness(150%);
-    transform: scale(1.1);
+h2:hover {
+  color: #f9faf9;
+  transform: scale(1.1);
+  text-decoration: none;
+}
+div.instagram {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: linear-gradient(90deg, rgb(61, 60, 60), rgb(83, 7, 93));
+  top: 400px;
+  left: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+div.github {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: linear-gradient(90deg, rgb(61, 60, 60), rgb(83, 7, 93));
+  top: 400px;
+  left: 90px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding-top: 6px;
+  padding-left: 8px;
+}
+div.linkedin {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: linear-gradient(90deg, rgb(61, 60, 60), rgb(83, 7, 93));
+  top: 400px;
+  left: 160px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+i {
+  color: rgb(17, 177, 240);
+  border-radius: 100%;
+  background: none;
+}
+i:hover {
+  box-shadow: 2px 2px 8px #0e0d0d, -2px -2px 8px #f10cb8;
+}
+a {
+  text-decoration: none;
 }
